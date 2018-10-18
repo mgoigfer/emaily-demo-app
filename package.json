@@ -1,0 +1,22 @@
+{
+  "name": "emaily-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgoigfer/emaily-app.git"
+  },
+  "author": "Mikel Goig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mgoigfer/emaily-app/issues"
+  },
+  "homepage": "https://github.com/mgoigfer/emaily-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
