@@ -19,6 +19,7 @@ passport.use(new GoogleStrategy(
     clientID: keys.GOOGLE_CLIENT_ID,
     clientSecret: keys.GOOGLE_CLIENT_SECRET,
     callbackURL: keys.GOOGLE_CLIENT_CALLBACK,
+    proxy: true,
   },
   async (accessToken, refreshToken, profile, done) => {
     const existingUser = await User.findOne({
