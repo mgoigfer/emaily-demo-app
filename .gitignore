@@ -1,5 +1,5 @@
 # Auth
-keys.js
+/config/dev.js
 
 # Dependencies
 /node_modules
